@@ -1,0 +1,26 @@
+@import "./reset";
+
+/*  ****************************************************************/
+nav a {
+    display: block;
+    padding-top: 20px;
+    padding-left: 20px;
+
+    color: var(--primary-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(50%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+@import "./components/*";
